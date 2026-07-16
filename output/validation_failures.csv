@@ -1,0 +1,1374 @@
+rule_id,table,company_id,year,field,issue,severity
+DQ-02,profitandloss,ADANIPORTS,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,profitandloss,ADANIPORTS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ABB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ABB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ADANIENSOL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ADANIENSOL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ADANIENT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ADANIENT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ADANIGREEN,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ADANIGREEN,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ADANIPORTS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ADANIPORTS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ADANIPOWER,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ADANIPOWER,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,AMBUJACEM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,AMBUJACEM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,APOLLOHOSP,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,APOLLOHOSP,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ASIANPAINT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ATGL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ATGL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BAJAJ-AUTO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BAJAJ-AUTO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BAJAJFINSV,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BAJAJFINSV,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BAJAJHLDNG,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BAJAJHLDNG,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BAJFINANCE,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BAJFINANCE,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BEL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BEL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BHARTIARTL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BHARTIARTL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BHEL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BHEL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BOSCHLTD,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BOSCHLTD,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BPCL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BPCL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BRITANNIA,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,BRITANNIA,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,CHOLAFIN,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,CHOLAFIN,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,CIPLA,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,CIPLA,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,COALINDIA,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,COALINDIA,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,DABUR,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,DABUR,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,DIVISLAB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,DIVISLAB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,DLF,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,DLF,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,DMART,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,DMART,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,DRREDDY,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,DRREDDY,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,EICHERMOT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,EICHERMOT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,GAIL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,GAIL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,GODREJCP,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,GODREJCP,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,GRASIM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,GRASIM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HAL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HAL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HCLTECH,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HCLTECH,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HAVELLS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HAVELLS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HDFCLIFE,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HDFCLIFE,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HEROMOTOCO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HEROMOTOCO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HINDALCO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HINDALCO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HINDUNILVR,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,HINDUNILVR,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ICICIGI,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ICICIGI,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ICICIPRULI,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ICICIPRULI,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,INDIGO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,INDIGO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,INFY,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,INFY,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,IOC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,IOC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,IRCTC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,IRCTC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,IRFC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,IRFC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ITC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ITC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ONGC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ONGC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,NTPC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,NTPC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,NHPC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,NHPC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,NESTLEIND,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,NESTLEIND,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,NAUKRI,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,NAUKRI,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,MOTHERSON,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,MOTHERSON,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,MARUTI,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,MARUTI,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,M&M,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,M&M,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,LTIM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,LTIM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,LT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,LT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,LODHA,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,LODHA,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,LICI,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,LICI,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,JSWSTEEL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,JSWSTEEL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,JSWENERGY,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,JSWENERGY,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,JIOFIN,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,JIOFIN,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,JINDALSTEL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,JINDALSTEL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PFC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PFC,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PIDILITIND,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PIDILITIND,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,PNB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,POWERGRID,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,RECLTD,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,RECLTD,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,RELIANCE,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,RELIANCE,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,SBILIFE,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,SBILIFE,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ZYDUSLIFE,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ZYDUSLIFE,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,SHREECEM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,SHREECEM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ZOMATO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ZOMATO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,WIPRO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,WIPRO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,VEDL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,VEDL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,SHRIRAMFIN,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,SHRIRAMFIN,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,UNITDSPR,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,UNITDSPR,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,SUNPHARMA,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,SUNPHARMA,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ULTRACEMCO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,ULTRACEMCO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TVSMOTOR,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TVSMOTOR,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TRENT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TRENT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TORNTPHARM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TORNTPHARM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TITAN,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TITAN,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TATACONSUM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TATACONSUM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TCS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TCS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TATASTEEL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TATASTEEL,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TECHM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TATAPOWER,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TATAPOWER,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TATAMOTORS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,balancesheet,TATAMOTORS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,ABB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,BAJAJ-AUTO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,cashflow,TCS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ABB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ADANIPORTS,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,ASIANPAINT,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,BAJAJ-AUTO,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,PNB,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,POWERGRID,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2013.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2014.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2015.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2016.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2017.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2018.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2019.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2020.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2021.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2022.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2023.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-02,financial_ratios,TECHM,2024.0,"company_id,year","Duplicate (company_id, year)",CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ULTRACEMCO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNIONBANK,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,UNITDSPR,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2012.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VBL,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,VEDL,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,WIPRO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZOMATO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZOMATO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZOMATO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZOMATO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZOMATO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZOMATO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZOMATO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,profitandloss,ZYDUSLIFE,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZYDUSLIFE,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZOMATO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZOMATO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZOMATO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZOMATO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZOMATO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZOMATO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZOMATO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ZOMATO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,WIPRO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,VEDL,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNITDSPR,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,UNIONBANK,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,balancesheet,ULTRACEMCO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,AGTL,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,AGTL,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,AGTL,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,AGTL,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,AGTL,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,AGTL,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,AGTL,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ULTRACEMCO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNIONBANK,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,UNITDSPR,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2012.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VBL,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,VEDL,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,WIPRO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZOMATO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZOMATO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZOMATO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZOMATO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZOMATO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,cashflow,ZYDUSLIFE,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,analysis,WIPRO,,company_id,company_id not found in companies table,CRITICAL
+DQ-03,analysis,WIPRO,,company_id,company_id not found in companies table,CRITICAL
+DQ-03,analysis,WIPRO,,company_id,company_id not found in companies table,CRITICAL
+DQ-03,analysis,WIPRO,,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2012.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2011.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2010.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ULTRACEMCO,2009.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2012.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2011.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2010.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNIONBANK,2009.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2012.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2011.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2010.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,UNITDSPR,2009.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2012.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2011.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2010.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VBL,2009.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2012.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2011.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2010.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,VEDL,2009.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2012.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2011.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2010.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,WIPRO,2009.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2012.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2011.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2010.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZOMATO,2009.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2012.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2011.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2010.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,documents,ZYDUSLIFE,2009.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,prosandcons,WIPRO,,company_id,company_id not found in companies table,CRITICAL
+DQ-03,prosandcons,WIPRO,,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,ULTRACEMCO,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2013.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2014.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2015.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2016.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2017.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2018.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2019.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2020.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2021.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2022.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2023.0,company_id,company_id not found in companies table,CRITICAL
+DQ-03,financial_ratios,UNIONBANK,2024.0,company_id,company_id not found in companies table,CRITICAL
+DQ-05,profitandloss,ADANIENSOL,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,AXISBANK,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BAJFINANCE,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BAJFINANCE,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BAJFINANCE,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BAJFINANCE,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BAJFINANCE,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BAJFINANCE,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BAJFINANCE,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BAJFINANCE,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BAJFINANCE,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BAJFINANCE,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,BANKBARODA,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CANBK,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CHOLAFIN,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,CIPLA,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,COALINDIA,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCBANK,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HDFCLIFE,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HEROMOTOCO,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HEROMOTOCO,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HEROMOTOCO,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HEROMOTOCO,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HEROMOTOCO,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HEROMOTOCO,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HEROMOTOCO,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HEROMOTOCO,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HEROMOTOCO,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HEROMOTOCO,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HEROMOTOCO,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDALCO,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,HINDUNILVR,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIBANK,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIGI,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,ICICIPRULI,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDUSINDBK,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,JIOFIN,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,KOTAKBANK,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,SUNPHARMA,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2013.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2014.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2015.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2016.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2017.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2018.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2019.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2020.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2021.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2022.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2023.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-05,profitandloss,INDIGO,2024.0,opm_percentage,OPM does not match computed value (>1pt diff),WARNING
+DQ-06,profitandloss,ADANIENSOL,2014.0,sales,Sales is zero or negative,WARNING
+DQ-11,profitandloss,ADANIENT,2014.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,ADANIGREEN,2017.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,ADANIGREEN,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,ADANIGREEN,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,ADANIPOWER,2014.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,ADANIPOWER,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,ADANIPOWER,2017.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,ADANIPOWER,2023.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,AMBUJACEM,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,APOLLOHOSP,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,AXISBANK,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,AXISBANK,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BANKBARODA,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BANKBARODA,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BANKBARODA,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BANKBARODA,2021.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BHARTIARTL,2014.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BHARTIARTL,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BHARTIARTL,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BHARTIARTL,2021.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BHEL,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BHEL,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BHEL,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BHEL,2021.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,BHEL,2024.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,CANBK,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,CANBK,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,CANBK,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,DLF,2014.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,DLF,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,DRREDDY,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,GODREJCP,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,GODREJCP,2024.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,GRASIM,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,HDFCLIFE,2024.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,HINDALCO,2015.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,HINDALCO,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,IOC,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,IRFC,2013.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,JINDALSTEL,2015.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,JINDALSTEL,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,JINDALSTEL,2017.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,JINDALSTEL,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,JINDALSTEL,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,JSWENERGY,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,JSWSTEEL,2014.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,JSWSTEEL,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,JSWSTEEL,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,LICI,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,LICI,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,LICI,2021.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,LICI,2022.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,LODHA,2021.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,LODHA,2023.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,M&M,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,MOTHERSON,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,NAUKRI,2015.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,NAUKRI,2017.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,NAUKRI,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,NAUKRI,2023.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,NHPC,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,NHPC,2022.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,NTPC,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,NTPC,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,PNB,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,PNB,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,PNB,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,POWERGRID,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,SBIN,2017.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,SBIN,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,SHREECEM,2015.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATACONSUM,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATAMOTORS,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATAMOTORS,2024.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATAPOWER,2013.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATAPOWER,2014.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATAPOWER,2015.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATASTEEL,2013.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATASTEEL,2015.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATASTEEL,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATASTEEL,2017.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATASTEEL,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TATASTEEL,2024.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TRENT,2013.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TRENT,2014.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TRENT,2021.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,TRENT,2022.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,ULTRACEMCO,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,UNIONBANK,2017.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,UNIONBANK,2018.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,UNIONBANK,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,UNIONBANK,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,UNIONBANK,2021.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,UNITDSPR,2013.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,UNITDSPR,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,VBL,2012.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,VBL,2013.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,VBL,2014.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,VEDL,2013.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,VEDL,2014.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,VEDL,2016.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,VEDL,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,VEDL,2024.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,ZOMATO,2023.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,ZOMATO,2024.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,INDIGO,2019.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,INDIGO,2020.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-11,profitandloss,INDIGO,2024.0,tax_percentage,Tax rate outside 0-60% range,WARNING
+DQ-12,profitandloss,BHARTIARTL,2019.0,dividend_payout,"Dividend payout >200%, likely data-entry error",WARNING
+DQ-12,profitandloss,BRITANNIA,2021.0,dividend_payout,"Dividend payout >200%, likely data-entry error",WARNING
+DQ-12,profitandloss,M&M,2020.0,dividend_payout,"Dividend payout >200%, likely data-entry error",WARNING
+DQ-12,profitandloss,SBIN,2017.0,dividend_payout,"Dividend payout >200%, likely data-entry error",WARNING
+DQ-12,profitandloss,TATAPOWER,2015.0,dividend_payout,"Dividend payout >200%, likely data-entry error",WARNING
+DQ-12,profitandloss,VEDL,2023.0,dividend_payout,"Dividend payout >200%, likely data-entry error",WARNING
+DQ-12,profitandloss,VEDL,2024.0,dividend_payout,"Dividend payout >200%, likely data-entry error",WARNING
+DQ-14,profitandloss,JSWENERGY,2018.0,eps,eps <= 0 while net_profit > 0,WARNING
+DQ-14,profitandloss,TATAPOWER,2013.0,eps,eps <= 0 while net_profit > 0,WARNING
+DQ-14,profitandloss,TATAPOWER,2014.0,eps,eps <= 0 while net_profit > 0,WARNING
+DQ-14,profitandloss,VBL,2016.0,eps,eps <= 0 while net_profit > 0,WARNING
+DQ-14,profitandloss,ZOMATO,2024.0,eps,eps <= 0 while net_profit > 0,WARNING
+DQ-16,profitandloss,JIOFIN,,year,Only 2 years of P&L history (<5),WARNING
+DQ-09,cashflow,TVSMOTOR,2022.0,net_cash_flow,net_cash_flow does not equal CFO+CFI+CFF (>10cr diff),WARNING

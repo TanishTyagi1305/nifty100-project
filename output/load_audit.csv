@@ -1,0 +1,37 @@
+table,stage,rows_in,rows_out,rejected,note,runtime_s
+companies,normalise,92,92,0,,
+profitandloss,normalise,1276,1176,100,,
+balancesheet,normalise,1312,1312,0,,
+cashflow,normalise,1187,1187,0,,
+analysis,normalise,20,20,0,,
+documents,normalise,1585,1585,0,,
+prosandcons,normalise,16,16,0,,
+sectors,normalise,92,92,0,,
+stock_prices,normalise,5520,5520,0,,
+market_cap,normalise,552,552,0,,
+financial_ratios,normalise,1184,1184,0,,
+peer_groups,normalise,56,56,0,,
+companies,dedupe_fk,92,92,0,,
+profitandloss,dedupe_fk,1176,1073,103,"12 duplicate PK, 91 orphan FK",
+balancesheet,dedupe_fk,1312,1058,254,"175 duplicate PK, 79 orphan FK",
+cashflow,dedupe_fk,1187,1056,131,"35 duplicate PK, 96 orphan FK",
+financial_ratios,dedupe_fk,1184,1041,143,"119 duplicate PK, 24 orphan FK",
+analysis,dedupe_fk,20,16,4,orphan FK,
+documents,dedupe_fk,1585,1457,128,orphan FK,
+prosandcons,dedupe_fk,16,14,2,orphan FK,
+sectors,dedupe_fk,92,92,0,orphan FK,
+stock_prices,dedupe_fk,5520,5520,0,orphan FK,
+market_cap,dedupe_fk,552,552,0,orphan FK,
+peer_groups,dedupe_fk,56,56,0,orphan FK,
+companies,load,92,92,0,,0.0097
+profitandloss,load,1073,1073,0,,0.0155
+balancesheet,load,1058,1058,0,,0.0109
+cashflow,load,1056,1056,0,,0.0133
+analysis,load,16,16,0,,0.0069
+documents,load,1457,1457,0,,0.0091
+prosandcons,load,14,14,0,,0.0158
+sectors,load,92,92,0,,0.0085
+stock_prices,load,5520,5520,0,,0.0267
+market_cap,load,552,552,0,,0.0096
+financial_ratios,load,1041,1041,0,,0.0117
+peer_groups,load,56,56,0,,0.0053

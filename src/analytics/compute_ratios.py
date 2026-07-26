@@ -16,15 +16,18 @@ bs = pd.read_sql("SELECT * FROM balancesheet", conn)
 cf = pd.read_sql("SELECT * FROM cashflow", conn)
 sectors = pd.read_sql("SELECT company_id, broad_sector FROM sectors", conn)
 
-# join everything onto P&L by (company_id, year); sectors join by company_id only
 df = pnl.merge(bs, on=["company_id", "year"], how="left", suffixes=("", "_bs"))
 df = df.merge(cf, on=["company_id", "year"], how="left", suffixes=("", "_cf"))
 df = df.merge(sectors, on="company_id", how="left")
 
-# lookup table {company_id: {year: sales}} for CAGR
+# lookup tables {company_id: {year: value}} for CAGR -- Revenue, PAT, and EPS
 sales_lookup = {}
+pat_lookup = {}
+eps_lookup = {}
 for _, row in pnl.iterrows():
     sales_lookup.setdefault(row["company_id"], {})[row["year"]] = row["sales"]
+    pat_lookup.setdefault(row["company_id"], {})[row["year"]] = row["net_profit"]
+    eps_lookup.setdefault(row["company_id"], {})[row["year"]] = row["eps"]
 
 results = []
 for _, row in df.iterrows():
@@ -41,7 +44,7 @@ for _, row in df.iterrows():
     hl_flag = high_leverage_flag(de, row.get("broad_sector"))
     icr_risk = icr_risk_flag(icr)
 
-    # 5-year revenue CAGR ending at this row's year
+    # Revenue CAGR (5yr, ending at this row's year)
     start_sales = sales_lookup.get(row["company_id"], {}).get(row["year"] - 5)
     end_sales = row["sales"]
     if start_sales is not None:
@@ -49,12 +52,31 @@ for _, row in df.iterrows():
     else:
         rev_cagr, rev_flag = None, "INSUFFICIENT"
 
+    # PAT (net profit) CAGR (5yr)
+    pat_start = pat_lookup.get(row["company_id"], {}).get(row["year"] - 5)
+    pat_end = row["net_profit"]
+    if pat_start is not None:
+        pat_cagr_val, pat_flag = cagr(pat_start, pat_end, 5)
+    else:
+        pat_cagr_val, pat_flag = None, "INSUFFICIENT"
+
+    # EPS CAGR (5yr)
+    eps_start = eps_lookup.get(row["company_id"], {}).get(row["year"] - 5)
+    eps_end = row["eps"]
+    if eps_start is not None:
+        eps_cagr_val, eps_flag = cagr(eps_start, eps_end, 5)
+    else:
+        eps_cagr_val, eps_flag = None, "INSUFFICIENT"
+
     results.append(dict(
         company_id=row["company_id"], year=int(row["year"]),
         net_profit_margin_pct=npm, operating_profit_margin_pct=opm,
         return_on_equity_pct=roe, debt_to_equity=de,
         interest_coverage=icr, icr_label=icr_label, asset_turnover=at,
-        free_cash_flow_cr=fcf, revenue_cagr_5yr=rev_cagr, revenue_cagr_5yr_flag=rev_flag,
+        free_cash_flow_cr=fcf,
+        revenue_cagr_5yr=rev_cagr, revenue_cagr_5yr_flag=rev_flag,
+        pat_cagr_5yr=pat_cagr_val, pat_cagr_5yr_flag=pat_flag,
+        eps_cagr_5yr=eps_cagr_val, eps_cagr_5yr_flag=eps_flag,
         high_leverage_flag=int(hl_flag), icr_risk_flag=int(icr_risk),
     ))
 
@@ -70,7 +92,10 @@ print(f"Done. financial_ratios now has {count} rows.")
 flagged = conn.execute("SELECT COUNT(*) FROM financial_ratios WHERE high_leverage_flag=1").fetchone()[0]
 print(f"Companies flagged high leverage: {flagged} / {count}")
 
-# ---------------- Phase 6: cross-check against source data ----------------
+pat_populated = conn.execute("SELECT COUNT(*) FROM financial_ratios WHERE pat_cagr_5yr IS NOT NULL").fetchone()[0]
+print(f"Rows with a real pat_cagr_5yr value: {pat_populated} / {count}")
+
+# ---------------- cross-check against source data ----------------
 
 companies = pd.read_sql("SELECT id, roce_percentage, roe_percentage FROM companies", conn)
 check_df = results_df.merge(companies, left_on="company_id", right_on="id", how="left")
@@ -81,8 +106,8 @@ for _, r in check_df.iterrows():
     if pd.notna(r.get("roe_percentage")) and pd.notna(r.get("return_on_equity_pct")):
         diff = abs((r["return_on_equity_pct"] or 0) - r["roe_percentage"])
         if diff > 5:
-           category = "data source issue" if (r["roe_percentage"] < 5 or abs(r["return_on_equity_pct"]) > 200) else "version difference"
-        edge_log.append(
+            category = "data source issue" if (r["roe_percentage"] < 5 or abs(r["return_on_equity_pct"]) > 200) else "version difference"
+            edge_log.append(
                 f"[{category}] {r['company_id']} {r['year']}: ROE - "
                 f"computed={r['return_on_equity_pct']:.2f} vs source={r['roe_percentage']:.2f}, "
                 f"diff={diff:.2f}"
@@ -93,10 +118,7 @@ with open("output/ratio_edge_cases.log", "w") as f:
     f.write("=" * 60 + "\n")
     for line in edge_log:
         f.write(line + "\n")
-
 print(f"ratio_edge_cases.log written: {len(edge_log)} entries")
-
-# ---------------- Clean summary: latest year per company only ----------------
 
 latest_year = check_df["year"].max()
 latest_only = check_df[check_df["year"] == latest_year]
@@ -118,7 +140,6 @@ with open("output/ratio_edge_cases_summary.log", "w") as f:
     f.write("=" * 60 + "\n")
     for line in summary_log:
         f.write(line + "\n")
-
 print(f"ratio_edge_cases_summary.log written: {len(summary_log)} entries")
 
 conn.close()

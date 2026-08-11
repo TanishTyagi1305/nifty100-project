@@ -89,7 +89,9 @@ def apply_filters(df, config):
     if "sales_min" in config:
         result = result[result["sales"] > config["sales_min"]]
 
-    return result.sort_values("composite_quality_score", ascending=False)
+    if "composite_quality_score" in result.columns:
+        return result.sort_values("composite_quality_score", ascending=False)
+    return result
 
 
 if __name__ == "__main__":

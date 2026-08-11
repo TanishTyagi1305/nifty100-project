@@ -56,6 +56,9 @@ def plot_radar(company_id, company_row, peer_avg_row, save_path):
 
 
 if __name__ == "__main__":
+    import os
+    os.makedirs("reports/radar_charts", exist_ok=True)
+
     conn = sqlite3.connect("db/nifty100.db")
     ratios = pd.read_sql("""
         SELECT * FROM financial_ratios
@@ -67,10 +70,28 @@ if __name__ == "__main__":
     df = ratios.merge(peer_groups, on="company_id", how="left")
     df = normalise_for_radar(df)
 
-    tcs_row = df[df["company_id"] == "TCS"].iloc[0]
-    peer_group_name = tcs_row["peer_group_name"]
-    peer_rows = df[df["peer_group_name"] == peer_group_name]
-    peer_avg = peer_rows[[c + "_scaled" for c in AXES]].mean()
+    # Nifty 100 average -- used as the fallback comparison for companies
+    # with no peer group assigned
+    nifty_avg = df[[c + "_scaled" for c in AXES]].mean()
 
-    plot_radar("TCS", tcs_row, peer_avg, "reports/radar_charts/TCS_radar.png")
-    print("Saved: reports/radar_charts/TCS_radar.png")
+    saved, skipped = 0, 0
+    for _, row in df.iterrows():
+        company_id = row["company_id"]
+        peer_group_name = row["peer_group_name"]
+
+        if pd.isna(peer_group_name):
+            # No peer group -- compare against the whole Nifty 100 average instead
+            comparison = nifty_avg
+        else:
+            peer_rows = df[df["peer_group_name"] == peer_group_name]
+            comparison = peer_rows[[c + "_scaled" for c in AXES]].mean()
+
+        try:
+            save_path = f"reports/radar_charts/{company_id}_radar.png"
+            plot_radar(company_id, row, comparison, save_path)
+            saved += 1
+        except Exception as e:
+            print(f"Skipped {company_id}: {e}")
+            skipped += 1
+
+    print(f"\nDone. Saved {saved} radar charts, skipped {skipped}.")

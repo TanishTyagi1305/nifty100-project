@@ -78,6 +78,7 @@ for _, row in df.iterrows():
         pat_cagr_5yr=pat_cagr_val, pat_cagr_5yr_flag=pat_flag,
         eps_cagr_5yr=eps_cagr_val, eps_cagr_5yr_flag=eps_flag,
         high_leverage_flag=int(hl_flag), icr_risk_flag=int(icr_risk),
+        dividend_payout_ratio_pct=row["dividend_payout"],
     ))
 
 results_df = pd.DataFrame(results)

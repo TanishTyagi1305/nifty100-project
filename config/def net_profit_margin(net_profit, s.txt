@@ -1,6 +1,0 @@
-def net_profit_margin(net_profit, sales):
-    if not sales:
-        return None
-    return (net_profit / sales) * 100
-print(net_profit_margin(100, 1000))   # expect 10.0
-print(net_profit_margin(50, 0))       # expect None (not a crash!)

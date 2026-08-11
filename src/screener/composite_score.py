@@ -72,3 +72,19 @@ if __name__ == "__main__":
     df = compute_composite_scores()
     print(df[["company_id", "composite_quality_score", "sector_relative_score"]]
           .sort_values("composite_quality_score", ascending=False).head(15))
+
+    conn = sqlite3.connect("db/nifty100.db")
+    for _, row in df.iterrows():
+        conn.execute("""
+            UPDATE financial_ratios
+            SET composite_quality_score = ?
+            WHERE company_id = ? AND year = ?
+        """, (row["composite_quality_score"], row["company_id"], row["year"]))
+    conn.commit()
+
+    count = conn.execute("""
+        SELECT COUNT(composite_quality_score) FROM financial_ratios
+        WHERE year = (SELECT MAX(year) FROM financial_ratios)
+    """).fetchone()[0]
+    print(f"\nSaved to database. Non-null composite_quality_score: {count} / 92")
+    conn.close()

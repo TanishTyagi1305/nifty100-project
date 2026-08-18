@@ -1,11 +1,19 @@
 """
 tearsheet.py
 ------------
-2-page company tearsheet PDF using ReportLab. Built incrementally:
-Page 1 header + KPI tiles first (this step), then charts, then Page 2.
+2-page company tearsheet PDF using ReportLab.
+This version: Page 1 complete (header, 6 KPI tiles, Revenue/Profit chart,
+ROE trend chart). Page 2 (balance sheet, cash flow waterfall, pros/cons,
+capital allocation badge) comes next.
 """
+import os
 import sqlite3
 import pandas as pd
+
+import matplotlib
+matplotlib.use("Agg")  # non-interactive backend, needed for generating images without a display
+import matplotlib.pyplot as plt
+
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import cm
 from reportlab.lib.colors import HexColor
@@ -64,22 +72,63 @@ def draw_kpi_tiles(c, latest_ratios):
         c.drawCentredString(x + tile_w / 2, y - tile_h / 2 - 0.4 * cm, label)
 
 
+def make_revenue_profit_chart(ticker, pnl, save_path):
+    fig, ax = plt.subplots(figsize=(5, 3))
+    ax.bar(pnl["year"] - 0.2, pnl["sales"], width=0.4, label="Sales")
+    ax.bar(pnl["year"] + 0.2, pnl["net_profit"], width=0.4, label="Net Profit")
+    ax.legend(fontsize=8)
+    ax.set_title("Revenue & Net Profit (Cr)", fontsize=10)
+    ax.tick_params(labelsize=7)
+    plt.tight_layout()
+    plt.savefig(save_path, dpi=120)
+    plt.close(fig)
+
+
+def make_roe_chart(ticker, ratios, save_path):
+    fig, ax = plt.subplots(figsize=(5, 3))
+    ax.plot(ratios["year"], ratios["return_on_equity_pct"], marker="o", label="ROE %")
+    ax.legend(fontsize=8)
+    ax.set_title("ROE Trend", fontsize=10)
+    ax.tick_params(labelsize=7)
+    plt.tight_layout()
+    plt.savefig(save_path, dpi=120)
+    plt.close(fig)
+
+
 def generate_tearsheet(ticker, output_path):
-    company, ratios = load_company_data(ticker)
+    conn = sqlite3.connect("db/nifty100.db")
+    company = pd.read_sql("SELECT * FROM companies WHERE id = ?", conn, params=[ticker])
+    ratios = pd.read_sql("SELECT * FROM financial_ratios WHERE company_id = ? ORDER BY year", conn, params=[ticker])
+    pnl = pd.read_sql("SELECT * FROM profitandloss WHERE company_id = ? ORDER BY year", conn, params=[ticker])
+    conn.close()
+
     if len(company) == 0 or len(ratios) == 0:
         return False
 
     company_name = company.iloc[0]["company_name"]
     latest_ratios = ratios.iloc[-1]
 
+    os.makedirs("reports/tearsheets/_charts", exist_ok=True)
+    chart1_path = f"reports/tearsheets/_charts/{ticker}_revprofit.png"
+    chart2_path = f"reports/tearsheets/_charts/{ticker}_roe.png"
+    make_revenue_profit_chart(ticker, pnl, chart1_path)
+    make_roe_chart(ticker, ratios, chart2_path)
+
     c = canvas.Canvas(output_path, pagesize=A4)
+    width, height = A4
+
     draw_header(c, ticker, company_name)
     draw_kpi_tiles(c, latest_ratios)
-    c.showPage()  # end page 1 -- page 2 comes later
+
+    chart_y = height - 12 * cm
+    c.drawImage(chart1_path, 1.5 * cm, chart_y, width=9 * cm, height=5.4 * cm, preserveAspectRatio=True)
+    c.drawImage(chart2_path, 11 * cm, chart_y, width=9 * cm, height=5.4 * cm, preserveAspectRatio=True)
+
+    c.showPage()
     c.save()
     return True
 
 
 if __name__ == "__main__":
-    success = generate_tearsheet("TCS", "reports/tearsheets/TCS_tearsheet_test.pdf")
-    print("Generated:" if success else "Failed:", "reports/tearsheets/TCS_tearsheet_test.pdf")
+    success = generate_tearsheet("TCS", "reports/tearsheets/TCS_v2.pdf")
+    print("Generated:" if success else "Failed:", "reports/tearsheets/TCS_v2.pdf")

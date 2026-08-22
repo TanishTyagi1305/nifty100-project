@@ -18,11 +18,11 @@ FEATURES = ["return_on_equity_pct", "debt_to_equity", "revenue_cagr_5yr",
             "fcf_cagr_5yr", "operating_profit_margin_pct"]
 
 CLUSTER_NAMES = {
-    0: "High-Quality Compounders",
-    1: "Defensive Dividend Payers",
-    2: "Value Cyclicals",
-    3: "Distressed or Turnaround",
-    4: "Emerging Growth",
+    0: "Broad Market Core",
+    1: "High-Margin Defensives",
+    2: "High-ROE Quality Compounders",
+    3: "Unique Outlier",
+    4: "High-Growth Financials",
 }
 
 

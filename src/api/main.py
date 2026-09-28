@@ -1,7 +1,7 @@
 """
 main.py
 -------
-FastAPI application entry point. Sprint 6, Day 38.
+FastAPI application entry point. Sprint 6, Day 38-40.
 All endpoints are under /api/v1 prefix.
 """
 import time
@@ -29,8 +29,14 @@ async def log_requests(request: Request, call_next):
     print(f"{request.method} {request.url.path} -> {response.status_code} ({duration}s)")
     return response
 
+
 from src.api.routers.companies import router as companies_router
+from src.api.routers.screener import router as screener_router
+
 app.include_router(companies_router, prefix="/api/v1")
+app.include_router(screener_router, prefix="/api/v1")
+
+
 @app.get("/api/v1/health")
 def health():
     conn = sqlite3.connect("db/nifty100.db")
